@@ -158,6 +158,7 @@ Colors can be customized by editing `.bash_prompt` directly, or by setting the f
 - `PROMPT_GIT_PROGRESS_COLOR` - Color for in progress git actions (e.g. `[merge]`)
 - `PROMPT_SYMBOL_COLOR` - Color for prompt symbol by default or on success (e.g. `$`)
 - `PROMPT_SYMBOL_ERROR_COLOR` - Color for prompt symbol on error (e.g. `$`)
+- `PROMPT_IS_CUSTOM_PS1` [bool]  - Activate alternative customizable PS1 output (e.g. `true`)
 
 You can set colors via [`tput`][] or [ANSI escape codes][]. For example:
 

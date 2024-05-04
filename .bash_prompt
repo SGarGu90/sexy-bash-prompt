@@ -321,15 +321,45 @@ else
 fi
 
 # Define the sexy-bash-prompt
-PS1="\[$sexy_bash_prompt_reset\]\
-\[$sexy_bash_prompt_user_color\]\u\[$sexy_bash_prompt_reset\] \
-\[$sexy_bash_prompt_preposition_color\]at\[$sexy_bash_prompt_reset\] \
-\[$sexy_bash_prompt_device_color\]\h\[$sexy_bash_prompt_reset\] \
-\[$sexy_bash_prompt_preposition_color\]in\[$sexy_bash_prompt_reset\] \
-\[$sexy_bash_prompt_dir_color\]\w\[$sexy_bash_prompt_reset\]\
-\$( sexy_bash_prompt_is_on_git && \
-  echo -n \" \[$sexy_bash_prompt_preposition_color\]on\[$sexy_bash_prompt_reset\] \" && \
-  echo -n \"\[$sexy_bash_prompt_git_status_color\]\$(sexy_bash_prompt_get_git_info)\" && \
-  echo -n \"\[$sexy_bash_prompt_git_progress_color\]\$(sexy_bash_prompt_get_git_progress)\" && \
-  echo -n \"\[$sexy_bash_prompt_reset\]\")\n\
-\[\$(sexy_bash_prompt_get_symbol_color)\]$sexy_bash_prompt_symbol \[$sexy_bash_prompt_reset\]"
+custom_user="\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_user_color\]\u\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_preposition_color\]"
+custom_host="\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_device_color\]\h\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_preposition_color\]"
+
+if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then 
+
+  custom_path="file://\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_dir_color\]\$PWD\[$sexy_bash_prompt_reset\]"
+  date_colored="\[$sexy_bash_prompt_timestamp_color\]\D{%d/%m/%Y}\[$sexy_bash_prompt_reset\]"
+  time_colored="\[$sexy_bash_prompt_timestamp_color\]\D{%H:%M:%S}\[$sexy_bash_prompt_reset\]"
+  datetime="🗓  $date_colored • 🕑 $time_colored"
+  timestamp="\[$sexy_bash_prompt_timestamp_color\]$datetime\[$sexy_bash_prompt_reset\]"
+
+  info_prompt="┌🐧─(👤 $custom_user • 💻 $custom_host • $timestamp)\n├📁─ $custom_path"
+
+
+  custom_git_info="echo -n \"\n├✨─ \[$sexy_bash_prompt_git_status_color\]\$(sexy_bash_prompt_get_git_info)\""
+  custom_git_progress="echo -n \"\[$sexy_bash_prompt_git_progress_color\]\$(sexy_bash_prompt_get_git_progress)\""
+  git_prompt="\$( sexy_bash_prompt_is_on_git && $custom_git_info && $custom_git_progress && echo -n \"\[$sexy_bash_prompt_reset\]\")"
+
+
+  input_prompt="\n│\n└──\[\$(sexy_bash_prompt_get_symbol_color)\]$sexy_bash_prompt_symbol \[$sexy_bash_prompt_reset\]"
+
+else
+
+  custom_path="\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_dir_color\]\w\[$sexy_bash_prompt_reset\]"
+  info_prompt="$custom_user at $custom_host in $custom_path"
+
+
+  custom_git_prep="echo -n \"\[$sexy_bash_prompt_preposition_color\]on\[$sexy_bash_prompt_reset\] \""
+  custom_git_info="echo -n \"\[$sexy_bash_prompt_git_status_color\]\$(sexy_bash_prompt_get_git_info)\""
+  custom_git_progress="echo -n \"\[$sexy_bash_prompt_git_progress_color\]\$(sexy_bash_prompt_get_git_progress)\""
+  git_prompt="\$( sexy_bash_prompt_is_on_git && $custom_git_prep && $custom_git_info && $custom_git_progress && echo -n \"\[$sexy_bash_prompt_reset\]\")\n"
+
+
+  input_prompt="\[\$(sexy_bash_prompt_get_symbol_color)\]$sexy_bash_prompt_symbol \[$sexy_bash_prompt_reset\]"
+
+fi
+
+PS1="\
+\n
+$info_prompt \
+$git_prompt \
+$input_prompt"
