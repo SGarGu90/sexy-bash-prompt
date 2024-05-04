@@ -80,7 +80,7 @@ if [[ -n "$PROMPT_SYMBOL_COLOR" ]]; then sexy_bash_prompt_symbol_color="$PROMPT_
 if [[ -n "$PROMPT_SYMBOL_ERROR_COLOR" ]]; then sexy_bash_prompt_symbol_error_color="$PROMPT_SYMBOL_ERROR_COLOR"; fi
 
 # Set up symbols
-sexy_bash_prompt_synced_symbol="✅"
+sexy_bash_prompt_synced_symbol=""
 sexy_bash_prompt_dirty_synced_symbol="*"
 sexy_bash_prompt_unpushed_symbol="△"
 sexy_bash_prompt_dirty_unpushed_symbol="▲"
@@ -88,6 +88,10 @@ sexy_bash_prompt_unpulled_symbol="▽"
 sexy_bash_prompt_dirty_unpulled_symbol="▼"
 sexy_bash_prompt_unpushed_unpulled_symbol="⬡"
 sexy_bash_prompt_dirty_unpushed_unpulled_symbol="⬢"
+
+if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then 
+  sexy_bash_prompt_synced_symbol="✅"
+fi
 
 # Apply symbol overrides that have been set in the environment
 # DEV: Working unicode symbols can be determined via the following gist
@@ -262,7 +266,11 @@ sexy_bash_prompt_get_git_info () {
     output="$branch"
 
     # Add on the git status
-    output="$(sexy_bash_prompt_get_git_status) $output"
+    if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then 
+      output="$(sexy_bash_prompt_get_git_status) $output"
+    else
+      output="$output$(sexy_bash_prompt_get_git_status)"
+    fi
 
     # Echo our output
     echo "$output"
@@ -332,7 +340,7 @@ if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then
   datetime="🗓  $date_colored • 🕑 $time_colored"
   timestamp="\[$sexy_bash_prompt_timestamp_color\]$datetime\[$sexy_bash_prompt_reset\]"
 
-  info_prompt="┌🐧─(👤 $custom_user • 💻 $custom_host • $timestamp)\n├📁─ $custom_path"
+  info_prompt="\n┌🐧─(👤 $custom_user • 💻 $custom_host • $timestamp)\n├📁─ $custom_path"
 
 
   custom_git_info="echo -n \"\n├✨─ \[$sexy_bash_prompt_git_status_color\]\$(sexy_bash_prompt_get_git_info)\""
@@ -359,7 +367,6 @@ else
 fi
 
 PS1="\
-\n
 $info_prompt \
 $git_prompt \
 $input_prompt"
