@@ -1,4 +1,4 @@
-# sexy-bash-prompt [![Build status](https://travis-ci.org/twolfson/sexy-bash-prompt.png?branch=master)](https://travis-ci.org/twolfson/sexy-bash-prompt)
+# sexy-bash-prompt
 
 [Bash][bash] prompt with colors, git statuses, and git branches.
 
@@ -12,87 +12,17 @@ Forked from [a gist by gf3][sexy-bash-orig].
 
 [sexy-bash-orig]: https://gist.github.com/gf3/306785/a35d28b6bdd0f7c54318cce510738438f04dabaa
 
-### Do you like `sexy-bash-prompt`?
-<!-- Derived from https://opencollective.com/sexy-bash-prompt/banner.md -->
-[Support us with a monthly donation and help us continue our activities][donations] or [spread word on Twitter][twitter]
-
-[donations]: https://opencollective.com/sexy-bash-prompt#backer
-[twitter]: https://twitter.com/intent/tweet?text=Bash%20prompt%20with%20colors%2C%20git%20statuses%2C%20and%20git%20branches&url=https%3A%2F%2Fgithub.com%2Ftwolfson%2Fsexy-bash-prompt&via=sexybashprompt
-
-<a href="https://opencollective.com/sexy-bash-prompt/backer/0/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/1/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/2/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/3/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/4/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/5/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/6/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/7/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/8/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/9/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/10/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/11/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/11/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/12/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/12/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/13/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/13/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/14/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/14/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/15/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/15/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/16/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/16/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/17/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/17/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/18/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/18/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/19/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/19/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/20/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/20/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/21/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/21/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/22/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/22/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/23/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/23/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/24/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/24/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/25/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/25/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/26/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/26/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/27/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/27/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/28/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/28/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/backer/29/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/29/avatar.svg"></a>
-
-### Sponsors
-Become a sponsor and get your logo on our README on GitHub with a link to your site. [Become a sponsor](https://opencollective.com/sexy-bash-prompt#sponsor)
-
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/0/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/1/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/2/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/3/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/4/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/5/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/6/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/7/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/8/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/9/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/9/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/10/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/10/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/11/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/11/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/12/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/12/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/13/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/13/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/14/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/14/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/15/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/15/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/16/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/16/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/17/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/17/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/18/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/18/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/19/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/19/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/20/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/20/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/21/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/21/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/22/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/22/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/23/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/23/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/24/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/24/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/25/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/25/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/26/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/26/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/27/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/27/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/28/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/28/avatar.svg"></a>
-<a href="https://opencollective.com/sexy-bash-prompt/sponsor/29/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/sponsor/29/avatar.svg"></a>
-
 ## Installation
+
 One line install (requires `git`, `make`):
 
 ```bash
-(cd /tmp && ([[ -d sexy-bash-prompt ]] || git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt) && cd sexy-bash-prompt && make install) && source ~/.bashrc
+(cd /tmp && ([[ -d sexy-bash-prompt ]] || git clone --depth 1 --config core.autocrlf=false https://github.com/SGarGu90/sexy-bash-prompt) && cd sexy-bash-prompt && make install) && source ~/.bashrc
 
 ```
 
 ### My colors don't look as advertised
+
 If you are seeing a screen like this:
 
 ![Bad TERM config](docs/bad_term.png)
@@ -115,11 +45,12 @@ rm /tmp/.bash_prompt_term
 ```
 
 ### Manual install
+
 Requirements: `git`, `make`
 
 ```bash
 # Clone the repository
-git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt
+git clone --depth 1 --config core.autocrlf=false https://github.com/SGarGu90/sexy-bash-prompt
 # Cloning into 'sexy-bash-prompt'...
 # ...
 # Resolving deltas: 100% (13/13), done.
@@ -140,14 +71,18 @@ source ~/.bashrc
 ```
 
 ## Configuration
+
 ### Behavior
+
 Behavior can be customized with the following environment variables:
 
 - `PROMPT_SHOW_ERROR_ONCE` - If enabled (default), then will only show error color once per command execution
   - `bash` persists a non-zero exit code across missing commands (e.g. comment line only, keyboard interrupt, empty command)
   - Setting this to `1` (default) means show error status once, `0` means always show same error status until a new command is executed
+- `PROMPT_IS_CUSTOM_PS1` [bool]  - Activate alternative customizable PS1 output (e.g. `true`)
 
 ### Colors
+
 Colors can be customized by editing `.bash_prompt` directly, or by setting the following environment variables:
 
 - `PROMPT_USER_COLOR` - Color for username (e.g. `todd`)
@@ -158,7 +93,6 @@ Colors can be customized by editing `.bash_prompt` directly, or by setting the f
 - `PROMPT_GIT_PROGRESS_COLOR` - Color for in progress git actions (e.g. `[merge]`)
 - `PROMPT_SYMBOL_COLOR` - Color for prompt symbol by default or on success (e.g. `$`)
 - `PROMPT_SYMBOL_ERROR_COLOR` - Color for prompt symbol on error (e.g. `$`)
-- `PROMPT_IS_CUSTOM_PS1` [bool]  - Activate alternative customizable PS1 output (e.g. `true`)
 
 You can set colors via [`tput`][] or [ANSI escape codes][]. For example:
 
@@ -174,6 +108,7 @@ source ~/.bash_prompt
 ![Color overridden prompt](docs/color_override.png)
 
 ### Symbols
+
 Similarly, symbols can be customized with the following environment variables:
 
 - `PROMPT_SYNCED_SYMBOL` - Symbol for clean and synced branch (e.g. empty string)
@@ -185,7 +120,7 @@ Similarly, symbols can be customized with the following environment variables:
 - `PROMPT_UNPUSHED_UNPULLED_SYMBOL` - Symbol for unpushed and unpulled branch (e.g. `⬡`)
 - `PROMPT_DIRTY_UNPUSHED_UNPULLED_SYMBOL` - Symbol for dirty, unpushed, and unpulled branch (e.g. `⬢`)
 - `PROMPT_SYMBOL` - Symbol given after each prompt (e.g. `$`)
-    - By default, this is `$` for normal users and `#` for root
+  - By default, this is `$` for normal users and `#` for root
 
 ```bash
 # Inside your `.bashrc` or `.bash_profile`
@@ -196,6 +131,7 @@ source ~/.bash_prompt
 ![Symbol overridden prompt](docs/symbol_override.png)
 
 #### Compatibility
+
 In some situations, the default symbol set can be drawn incorrectly (e.g. as diamonds). To remedy that, a simpler set of symbols can be used:
 
 ```bash
@@ -210,31 +146,36 @@ PROMPT_DIRTY_UNPUSHED_UNPULLED_SYMBOL="*↑↓"
 ```
 
 ## How does it work?
+
 [bash][bash] provides a special set of [variables for your prompts][ps-vars]. `PS1` is the one used by default. The install script adds a command to `~/.bashrc`, a file that is run every time a new terminal opens. Inside of the new command, we run our script and set your `PROMPT_COMMAND` and `PS1` which runs some `git` commands to determine its current state and outputs them as a string.
 
 [bash]: https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29
 [ps-vars]: http://www.gnu.org/software/bash/manual/bashref.html#index-PS1
 
 ## Support
+
 Linux and Mac OSX are supported platforms.
 
 Windows is supported to the best of my abilities. However, there have been [font issues][putty-issue] with using [PuTTY][].
 
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-[putty-issue]: https://github.com/twolfson/sexy-bash-prompt/issues/7
+[putty-issue]: https://github.com/SGarGu90/sexy-bash-prompt/issues/7
 
 ## Uninstallation
+
 To uninstall `sexy-bash-prompt`, perform the following steps:
 
 - Remove `. ~/.bash_prompt` from `~/.bashrc`
 - Delete `~/.bash_prompt` (e.g. `rm ~/.bash_prompt`)
 - During installation, we may have added a `. ~/.bashrc` invocation to `~/.bash_profile`, `~/.bash_login`, or `~/.profile`
-    - Feel free to remove this if it's no longer necessary
+  - Feel free to remove this if it's no longer necessary
 
 ## Contributing
+
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Test via `make test`.
 
 ## License
-Copyright (c) 2013 Todd Wolfson
+
+Copyright (c) 2024 SGarGu90
 
 Licensed under the MIT license.
