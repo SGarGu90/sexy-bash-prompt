@@ -89,7 +89,7 @@ sexy_bash_prompt_dirty_unpulled_symbol="▼"
 sexy_bash_prompt_unpushed_unpulled_symbol="⬡"
 sexy_bash_prompt_dirty_unpushed_unpulled_symbol="⬢"
 
-if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then 
+if [[ "$PROMPT_IS_CUSTOM_PS1" == true ]]; then 
   sexy_bash_prompt_synced_symbol="✅"
 fi
 
@@ -266,7 +266,7 @@ sexy_bash_prompt_get_git_info () {
     output="$branch"
 
     # Add on the git status
-    if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then 
+    if [[ "$PROMPT_IS_CUSTOM_PS1" == true ]]; then 
       output="$(sexy_bash_prompt_get_git_status) $output"
     else
       output="$output$(sexy_bash_prompt_get_git_status)"
@@ -332,7 +332,7 @@ fi
 custom_user="\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_user_color\]\u\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_preposition_color\]"
 custom_host="\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_device_color\]\h\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_preposition_color\]"
 
-if [[ "$PROMPT_IS_CUSTOM_PS1" ]]; then 
+if [[ "$PROMPT_IS_CUSTOM_PS1" == true ]]; then 
 
   custom_path="file://\[$sexy_bash_prompt_reset\]\[$sexy_bash_prompt_dir_color\]\$PWD\[$sexy_bash_prompt_reset\]"
   date_colored="\[$sexy_bash_prompt_timestamp_color\]\D{%d/%m/%Y}\[$sexy_bash_prompt_reset\]"
